@@ -1,0 +1,82 @@
+payload:
+  # ====== Apple iCloud Relay / Fastly CDN ======
+  - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN-SUFFIX,gateway.icloud.com
+  - DOMAIN-SUFFIX,cp4.cloudflare.com
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+
+  # ====== Apple AI / Siri / Apple Intelligence ======
+  - DOMAIN-SUFFIX,guzzoni.apple.com
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN-SUFFIX,apple.ai
+  - DOMAIN-SUFFIX,apple-intelligence.com
+  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,apps.mzstatic.com
+  - DOMAIN-SUFFIX,api.apps.apple.com
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,appleid.apple.com
+  - DOMAIN-SUFFIX,cdn.apple-cloudkit.com
+  - DOMAIN-SUFFIX,developer.apple.com
+  - DOMAIN-SUFFIX,help.apple.com
+
+  # ====== Apple CDN / 静态资源 ======
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,akamaiedge.net
+  - DOMAIN-SUFFIX,akamaitechnologies.com
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apple.com.edgekey.net
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+
+  # ====== Siri / AI 语音识别接口 ======
+  - DOMAIN-SUFFIX,siri.apple.com
+  - DOMAIN-SUFFIX,speech.apple.com
+  - DOMAIN-SUFFIX,dictation.apple.com
+  - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,gsa.apple.com
+  - DOMAIN-SUFFIX,ess.apple.com
+
+  # ====== Apple 推理与模型 API ======
+  - DOMAIN-SUFFIX,appleai.com
+  - DOMAIN-SUFFIX,fastly.net
+  - DOMAIN-SUFFIX,fastly-edge.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,applehostedcontent.com
+
+  # ====== 备选 Apple 服务 ======
+  - DOMAIN-SUFFIX,findmy.apple.com
+  - DOMAIN-SUFFIX,weather-data.apple.com
+  - DOMAIN-SUFFIX,news.apple.com
+  - DOMAIN-SUFFIX,api-glb-sea.smoot.apple.com
+  - DOMAIN-SUFFIX,apple.news
+
+  # ====== Apple 研究相关域 ======
+  - DOMAIN-SUFFIX,ml.apple.com
+  - DOMAIN-SUFFIX,vision.apple.com
+  - DOMAIN-SUFFIX,ai.apple.com
+  - DOMAIN-SUFFIX,mlkit.apple.com
+
+  # ====== 第三方代理依赖的 CDN ======
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,cdn77.org
+  - DOMAIN-SUFFIX,cachefly.net
+
+  # ====== Apple Relay / 隐私中继 ======
+  - DOMAIN-SUFFIX,mask.icloud.com
+  - DOMAIN-SUFFIX,mask-h2.icloud.com
+  - DOMAIN-SUFFIX,mask-tunnel.icloud.com
+
+  # ====== 关键词匹配（保证全面） ======
+  - DOMAIN-KEYWORD,apple
+  - DOMAIN-KEYWORD,icloud
