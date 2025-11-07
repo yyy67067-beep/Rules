@@ -1,0 +1,32 @@
+payload:
+  # ====== Apple AI / Siri / Intelligence 主服务 ======
+  - DOMAIN-SUFFIX,guzzoni.apple.com           # Siri 主接口
+  - DOMAIN-SUFFIX,smoot.apple.com             # Siri 智能推荐
+  - DOMAIN-SUFFIX,api-glb-sea.smoot.apple.com # Siri 东南亚节点
+  - DOMAIN-SUFFIX,siri.apple.com              # Siri 语音接口
+  - DOMAIN-SUFFIX,speech.apple.com            # 语音识别接口
+  - DOMAIN-SUFFIX,dictation.apple.com         # 听写功能
+  - DOMAIN-SUFFIX,gsa.apple.com               # Siri 搜索辅助
+  - DOMAIN-SUFFIX,ess.apple.com               # Siri 推理模型
+
+  # ====== Apple Intelligence / 生成式 AI 平台 ======
+  - DOMAIN-SUFFIX,apple-intelligence.com
+  - DOMAIN-SUFFIX,apple.ai
+  - DOMAIN-SUFFIX,appleai.com
+
+  # ====== Apple AI Research / Vision / ML ======
+  - DOMAIN-SUFFIX,ml.apple.com
+  - DOMAIN-SUFFIX,vision.apple.com
+  - DOMAIN-SUFFIX,ai.apple.com
+  - DOMAIN-SUFFIX,mlkit.apple.com
+
+  # ====== Apple Cloud 推理与模型 CDN ======
+  - DOMAIN-SUFFIX,applehostedcontent.com
+  - DOMAIN-SUFFIX,apple-ai-research.com
+
+  # ====== 辅助关键词匹配 ======
+  - DOMAIN-KEYWORD,appleai
+  - DOMAIN-KEYWORD,apple-intelligence
+  - DOMAIN-KEYWORD,guzzoni
+  - DOMAIN-KEYWORD,siri
+  - DOMAIN-KEYWORD,smoot
