@@ -15,26 +15,15 @@ payload:
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud-content.com
-  - DOMAIN-SUFFIX,itunes.apple.com
-  - DOMAIN-SUFFIX,apps.mzstatic.com
-  - DOMAIN-SUFFIX,api.apps.apple.com
-  - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,cdn-apple.com
   - DOMAIN-SUFFIX,appleid.apple.com
   - DOMAIN-SUFFIX,cdn.apple-cloudkit.com
   - DOMAIN-SUFFIX,developer.apple.com
   - DOMAIN-SUFFIX,help.apple.com
 
   # ====== Apple CDN / 静态资源 ======
-  - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,akadns.net
-  - DOMAIN-SUFFIX,akamaiedge.net
-  - DOMAIN-SUFFIX,akamaitechnologies.com
   - DOMAIN-SUFFIX,apple-dns.net
-  - DOMAIN-SUFFIX,apple.com.edgekey.net
-  - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,cdn-apple.com
+
 
   # ====== Siri / AI 语音识别接口 ======
   - DOMAIN-SUFFIX,siri.apple.com
@@ -66,9 +55,6 @@ payload:
   - DOMAIN-SUFFIX,mlkit.apple.com
 
   # ====== 第三方代理依赖的 CDN ======
-  - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,edgesuite.net
-  - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,cdn77.org
   - DOMAIN-SUFFIX,cachefly.net
 
