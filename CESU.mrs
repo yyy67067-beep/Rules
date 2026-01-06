@@ -1,2 +1,3 @@
-DOMAIN,ll.jsbar.cc
-DOMAIN,speed.cloudflare.com
+payload:
+  - DOMAIN,ll.jsbar.cc
+  - DOMAIN,speed.cloudflare.com
